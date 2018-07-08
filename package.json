@@ -12,7 +12,6 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-devkit/build-angular": "~0.6.8",
     "@angular/animations": "^6.0.3",
     "@angular/cli": "~6.0.8",
     "@angular/common": "^6.0.3",
@@ -32,6 +31,7 @@
     "ts-node": "~5.0.1"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.6.8",
     "@angular/language-service": "^6.0.3",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
@@ -46,5 +46,9 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.3.0",
     "tslint": "~5.9.1"
+  },
+  "engines": {
+    "node":"8.11.1",
+    "npm":"5.5.1"
   }
 }
