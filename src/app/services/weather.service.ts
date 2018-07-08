@@ -8,7 +8,7 @@ import { Filter, RootObject } from '../models/data';
 export class WeatherService {
 
   private appID = '0784e3e82a23b2c49407faa07552717d';
-  private url = 'http://api.openweathermap.org/data/2.5/box/city?bbox';//12,32,15,37,10&appid=${this.appID}`;
+  private url = 'https://api.openweathermap.org/data/2.5/box/city?bbox';//12,32,15,37,10&appid=${this.appID}`;
 
   constructor(private httpClient:HttpClient){}
 
